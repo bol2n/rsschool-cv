@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML, CSS & Git Basics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CV, Junior Front-End Developer</h1>
+    </header>
+    <main>
+        <section class="personal-info">
+            <div class="photo"><img src="images/Photo.jpg" alt="photo"></div>
+            <div class="contact-information">
+                <h2>Name</h2>
+                <p>Andrei Lukyanau</p>
+                <h2>Contacts</h2>
+                    <div class="contacts">
+                        <p><img height="20" width="20" src="images/Viber.png" alt="photo">
+                            <a href="tel:+375297777110">&nbsp;+375 29 777-71-10</a></p>
+                        <p><a href="mailto:lukyanoff@tut.by">lukyanoff@tut.by</a></p>
+                    </div>
+            </div>
+         </section>
+         <section class="summary">
+            <h2>Summary</h2>
+                <p>I really love programming and I want to be a Front-End developer. 
+                 My main goal - to start a career as junior and within five years 
+                 to grow to the level of senior. I am learning front-and for last 
+                 six months, i have good analytical skills and i am full of desire 
+                 to work hard and study. I’m not conflicted and get along well with 
+                 the team.</p>
+            <h2>Skills</h2>
+                <p>I study and practice HTML/HTML5, CSS/CSS3, JavaScript, Git.</p>
+            <h2>Samples of code</h2>
+                <pre>
+                   
+                        function array(arr) {
+                            // переводим строку в массив
+                            var newArray = arr.split(",");
+                            // убираем первый символ
+                            newArray.splice(0,1);
+                            // убираем последний символ
+                            newArray.splice(-1,1);
+                            // избавляемся от "мусорных" значений
+                            if (newArray == "") {
+                                return null;
+                            }
+                            if (newArray == " ") {
+                                return null;
+                            }
+                            // переводим массив в строку
+                            var str = newArray.join(" ");
+                            return str;
+                        }
+                        
+                   
+                </pre>
+            <h2>Experience</h2>
+                <p>I finished сourses with the basics of HTML5 and CSS at Codecademy. 
+                 In addition i completed HTML and CSS fundamentals courses with Sololearn. 
+                 Currently i practice at <a href="https://www.codewars.com/users/bol2n/completed">Codewars</a>.</p>
+            <h2>Education</h2>
+                <p>Now i am training at ru.code-basics and freeCodeCamp. Also for studying i use such resources as:</p>
+                <ul>
+                    <li>webref.ru</li>
+                    <li>wisdomweb.ru</li>
+                    <li>w3schools.com</li>
+                    <li>learn.javascript.ru</li>
+                    <li>MDN web docs</li>
+                </ul>    
+            <h2>English level</h2>
+            <p>My current level is Pre-intermediate (А2). Also now i improve my skills with Duolingo and Simpler.</p>                
+         </section>
+    </main>
+    <footer>
+        <a href="https://github.com/bol2n"><img height="20" width="20" src="images/github.png" alt="Github"></a><span>2021</span>
+        <a href="https://rs.school/js/"><img height="50" width="50" src="images/rs_school_js.svg" alt="Курс «JavaScript/Front-end»"></a>
+    </footer>
+</body>
+</html>
